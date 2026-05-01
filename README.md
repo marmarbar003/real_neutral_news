@@ -20,6 +20,8 @@ However, if you are interested in looking at the EDA and other models tested the
 - ``: This file will showcase all the preprocessing, EDA and the models tested for determining whether the article is left leaning or right leaning.
 - ``: This file employs the UI. 
 
+Due that the datesets used are big we were not able to insert the data directly here. Hence, we have used KaggleHub to be able to read it and for the convinience fo the user after preprocessing the cleaned data will be generate. Therfore, the following section.
+
 ### Dataset Files Generated:
 - `clean_real_news`: This file contains the preprocessed data for the real news model.
 
