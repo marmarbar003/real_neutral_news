@@ -16,7 +16,7 @@ However, if you are interested in looking at the EDA and other models tested the
 
 ### Code Files:
 - `real_news.ipynb`: This file will showcase all the preprocessing and EDA for determining whether the article is real or not.
-- - `real_news_mlds.ipynb`: This file will showcase all the models tested for determining whether the article is real or fake.
+- `real_news_mlds.ipynb`: This file will showcase all the models tested for determining whether the article is real or fake.
 - ``: This file will showcase all the preprocessing, EDA and the models tested for determining whether the article is left leaning or right leaning.
 - ``: This file employs the UI. 
 
