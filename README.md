@@ -24,7 +24,7 @@ However, if you are interested in looking at the EDA and other models tested the
 - `clean_real_news`: This file contains the preprocessed data for the real news model.
 
 ### Non-Code File:
-- `presentation.pdf`: This is the presentation of this project
+- `Real Neutral News - Lauren & Maria.pdf`: This is the presentation of this project
 
 
 
