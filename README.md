@@ -7,8 +7,11 @@ In this day and age media can be used for anything. Therefore, this project aims
 ## Program Language
 This issue has been addressed using python for all of the steps (preprocessing, EDA, model trainin/ testsing and UI integration).
 
-## Dataset
-For the real news aspect of this project the following dataset was used [INSERT LINK]
+## Datasets
+For the real news aspect of this project the following dataset was used this [LINK](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data). A quick summary of the data is that there are 2 seperate datasets one contaitning real news (indicated do the source of the article being Reuters) and a fake dataset which was flagged unreliable by Politifact (fact checking org). Both dataset contains similar amount of observations and have the same features.
+
+
+
 
 ## Navigation of this Repo/ Folder
 These are all the files within this repo. 
@@ -32,16 +35,18 @@ Due that the datesets used are big we were not able to insert the data directly 
 - First, please make a virtual environment by using the following command in terminal:
   `python3 -m venv venv`
 - Then activate it
-  If you are a Windows user then: `venv\Scripts\activate`
-  If you are a Mac/Linux user then: `source venv/bin/activate`
+  - If you are a Windows user then: `.\venv\Scripts\activate`
+  - If you are a Mac/Linux user then: `source venv/bin/activate`
 - Then run the following command to ensure you have all the neccesary libraries installed:
   `pip install -r requirements.txt`
+- Now run this command: `jupyter notebook`
 
 Now that you have the setup you will need to run the following files in order (descriptions for each file provided above):
-You run 1 and 2 in order to get the cleaned data.
+
+- You run 1 and 2 in order to get the cleaned data.
 1. `real_news.ipynb`
 2. `INSERT FILE NAME`
-Then run 3 to get the UI
+- Then run 3 to get the UI
 3. `INSERT FILE NAME_3`
 
 
