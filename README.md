@@ -21,7 +21,7 @@ These are all the files within this repo.
 - `real_news_mlds.ipynb`: This file will showcase all the models tested for determining whether the article is real or fake.
 - `bias_news.ipynb`: This file will showcase all the preprocessing and EDA for determining whether the article is left leaning or right leaning.
 - `bias_news_modls.ipynb`: This file will showcase all the models tested for determining whether the article is real or fake.
-- `INSERT FILE NAME_3`: This file utilizes the clean datasets generated from `real_news.ipynb` and `INSERT FILE NAME` and utilizes one of the models [per section (i.e. real news or bias detection)] to be integrated with the UI.
+- `UI.ipynb`: This file utilizes the clean datasets generated from `real_news.ipynb` and `INSERT FILE NAME` and utilizes one of the models [per section (i.e. real news or bias detection)] to be integrated with the UI.
 
 Because the datesets used are big we were not able to insert the data directly here. Hence, we have used KaggleHub and HuggingFace to read in data. For the convenience of the user, after preprocessing, the cleaned data will be generated. Therfore, the following section...
 
@@ -47,7 +47,7 @@ Now that you have the setup you will need to run the following files in order (d
 
 - You run 1 and 2 in order to get the cleaned data.
 1. `real_news.ipynb`
-2. `INSERT FILE NAME`
+2. `bias_news.ipynb`
 - Then run 3 to get the UI
 3. `INSERT FILE NAME_3`
 
