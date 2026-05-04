@@ -10,7 +10,7 @@ This issue has been addressed using python for all of the steps (preprocessing, 
 ## Datasets
 For the real news aspect of this project the following dataset was used this [LINK](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data). A quick summary of the data is that there are 2 seperate datasets one contaitning real news (indicated by the source of the article being Reuters) and a fake dataset which was flagged unreliable by Politifact (fact checking org). Both dataset contains similar amount of observations and have the same features.
 
-
+For the new bias portion of this project, the following dataset was used [LINK](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data). This dataset contains over 10,000 articles obtained by webscraping allsides.com, a platform that presents news articles from differing political perspectives.  The articles were initially labeled "leaning-left", "left", "center", "right", and "leaning-right" but the formatting was changed to suit this project.  
 
 
 ## Navigation of this Repo/ Folder
@@ -19,14 +19,16 @@ These are all the files within this repo.
 ### Code Files:
 - `real_news.ipynb`: This file will showcase all the preprocessing and EDA for determining whether the article is real or not.
 - `real_news_mlds.ipynb`: This file will showcase all the models tested for determining whether the article is real or fake.
-- `INSERT FILE NAME`: This file will showcase all the preprocessing and EDA for determining whether the article is left leaning or right leaning.
-- `INSERT FILE NAME_2`: This file will showcase all the models tested for determining whether the article is real or fake.
+- `bias_news.ipynb`: This file will showcase all the preprocessing and EDA for determining whether the article is left leaning or right leaning.
+- `bias_news_modls.ipynb`: This file will showcase all the models tested for determining whether the article is real or fake.
 - `INSERT FILE NAME_3`: This file utilizes the clean datasets generated from `real_news.ipynb` and `INSERT FILE NAME` and utilizes one of the models [per section (i.e. real news or bias detection)] to be integrated with the UI.
 
-Due that the datesets used are big we were not able to insert the data directly here. Hence, we have used KaggleHub to be able to read it and for the convinience of the user after preprocessing the cleaned data will be generate. Therfore, the following section.
+Because the datesets used are big we were not able to insert the data directly here. Hence, we have used KaggleHub and HuggingFace to read in data. For the convenience of the user, after preprocessing, the cleaned data will be generated. Therfore, the following section...
 
 ### Dataset Files Generated:
 - `clean_real_news`: This file contains the preprocessed data for the real news model.
+- `huggingFaceClean.json`: This file contains the preprocessed data for the bias news model, generated from the Hugging Face Dataset
+- `KaggleClean.json`: This file contains the preprocessed data for the bias news model, generated from the Kaggle Dataset.
 
 ### Non-Code File:
 - `Real Neutral News - Lauren & Maria.pdf`: This is the presentation of this project
