@@ -34,16 +34,19 @@ Because the datesets used are big we were not able to insert the data directly h
 - `Real Neutral News - Lauren & Maria.pdf`: This is the presentation of this project
 
 ## How to run this code?
-- First, please make a virtual environment by using the following command in terminal:
+- First, please make a virtual environment in the same directory as the files by using the following command in terminal:
   `python3 -m venv venv`
 - Then activate it
   - If you are a Windows user then: `.\venv\Scripts\activate`
   - If you are a Mac/Linux user then: `source venv/bin/activate`
+- Then run this so the venv will appear on jupyer notebook" `python -m ipykernel install --user --name=venv --display-name "Real Bias (venv)"`
 - Then run the following command to ensure you have all the neccesary libraries installed:
   `pip install -r requirements.txt`
 - Now run this command: `jupyter notebook`
 
 Now that you have the setup you will need to run the following files in order (descriptions for each file provided above):
+
+**Before Running the code make sure you have selected the kernel named `Real Bias (venv)`**
 
 - You run 1 and 2 in order to get the cleaned data, then run 3 and 4 in order to generate the models, and finally run 5 in order to run the user interface and test the application.
 1. `real_news.ipynb`
