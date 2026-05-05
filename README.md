@@ -45,11 +45,14 @@ Because the datesets used are big we were not able to insert the data directly h
 
 Now that you have the setup you will need to run the following files in order (descriptions for each file provided above):
 
-- You run 1 and 2 in order to get the cleaned data.
+- You run 1 and 2 in order to get the cleaned data, then run 3 and 4 in order to generate the models, and finally run 5 in order to run the user interface and test the application.
 1. `real_news.ipynb`
 2. `bias_news.ipynb`
-- Then run 3 to get the UI
-3. `INSERT FILE NAME_3`
+- Then run 3 and 4 to generate the models.
+3. `real_news_mlds.ipynb`
+4. `bias_news_mdls.ipynb`
+- Lastly, run 5 to interact with the user interface.
+5. `UI.ipynb`
 
 
 
