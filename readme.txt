@@ -5,12 +5,12 @@
 In this day and age media can be used for anything. Therefore, this project aims to determine whether an article is real or fake. In addition, media can be used to influence individuals' perspective, hence it also detects whether the article is right leaning or left learning. 
 
 ## Program Language
-This issue has been addressed using python for all of the steps (preprocessing, EDA, model training/ testsing and UI integration).
+This issue has been addressed using python for all of the steps (preprocessing, EDA, model training/ testing and UI integration).
 
 ## Datasets
-For the real news aspect of this project the following dataset was used this [LINK](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data). A quick summary of the data is that there are 2 seperate datasets one contaitning real news (indicated by the source of the article being Reuters) and a fake dataset which was flagged unreliable by Politifact (fact checking org). Both dataset contains similar amount of observations and have the same features.
+For the real news aspect of this project the following dataset was used this [LINK](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data). A quick summary of the data is that there are 2 separate datasets one containing real news (indicated by the source of the article being Reuters) and a fake dataset which was flagged unreliable by Politifact (fact checking org). Both dataset contains similar amount of observations and have the same features.
 
-For the new bias portion of this project, the following dataset was used [LINK](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data). This dataset contains over 10,000 articles obtained by webscraping allsides.com, a platform that presents news articles from differing political perspectives.  The articles were initially labeled "leaning-left", "left", "center", "right", and "leaning-right" but the formatting was changed to suit this project.  
+For the new bias portion of this project, the following dataset was used [LINK](https://www.kaggle.com/datasets/gandpablo/news-articles-for-political-bias-classification). This dataset contains over 10,000 articles obtained by webscraping allsides.com, a platform that presents news articles from differing political perspectives. The articles were initially labeled "leaning-left", "left", "center", "right", and "leaning-right" but the formatting was changed to suit this project.  
 
 
 ## Navigation of this Repo/ Folder
@@ -67,3 +67,7 @@ Now that you have the setup you will need to run the following files in order (d
 4. `bias_news_mdls.ipynb`
 - Lastly, run 5 to interact with the user interface.
 5. `UI.ipynb`
+
+
+
+
