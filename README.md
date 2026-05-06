@@ -18,10 +18,10 @@ These are all the files within this repo.
 
 ### Code Files:
 - `real_news.ipynb`: This file will showcase all the preprocessing and EDA for determining whether the article is real or not.
-- `real_news_mlds.ipynb`: This file will showcase all the models tested for determining whether the article is real or fake.
+- `real_news_mdls.ipynb`: This file will showcase all the models tested for determining whether the article is real or fake.
 - `bias_news.ipynb`: This file will showcase all the preprocessing and EDA for determining whether the article is left leaning or right leaning.
 - `bias_news_mdls.ipynb`: This file will showcase all the models tested for determining whether the article is real or fake.
-- `UI.ipynb`: This file utilizes the model/ vectorizers dumped in  `real_news_mlds.ipynb` and `bias_news_mdls.ipynb` and utilizes one of the models [per section (i.e. real news or bias detection)] to be integrated with the UI. We have opted for the logistic regression for both as its the model that performed the best. However, if one wants to change the model used in this file just change value of the variables `bias_model` and `real_model` to a different joblib model (e.x. `rand_for.joblib` for `real_model`) .
+- `UI.ipynb`: This file utilizes the model/ vectorizers dumped in  `real_news_mdls.ipynb` and `bias_news_mdls.ipynb` and utilizes one of the models [per section (i.e. real news or bias detection)] to be integrated with the UI. We have opted for the logistic regression for both as its the model that performed the best. However, if one wants to change the model used in this file just change value of the variables `bias_model` and `real_model` to a different joblib model (e.x. `rand_for.joblib` for `real_model`) .
 
 ### Models/ Vectorizers Generated (saved with dump):
 - `vectorizer_rn.joblib`: This is the trained text vectorizer (TF-IDF) for real news.
@@ -63,7 +63,7 @@ Now that you have the setup you will need to run the following files in order (d
 1. `real_news.ipynb`
 2. `bias_news.ipynb`
 - Then run 3 and 4 to generate the models.
-3. `real_news_mlds.ipynb`
+3. `real_news_mdls.ipynb`
 4. `bias_news_mdls.ipynb`
 - Lastly, run 5 to interact with the user interface.
 5. `UI.ipynb`
