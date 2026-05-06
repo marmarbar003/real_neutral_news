@@ -1,5 +1,5 @@
 # Real Bias News Detector
-## By: Lauren Crawford () & Maria Martin-Barbera ()
+## By: Lauren Crawford (10956355) & Maria Martin-Barbera ()
 
 ## Introduction
 In this day and age media can be used for anything. Therefore, this project aims to determine whether an article is real or fake. In addition, media can be used to influence individuals' perspective, hence it also detects whether the article is right leaning or left learning. 
