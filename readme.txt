@@ -34,7 +34,7 @@ These are all the files within this repo.
 - `grid_best_estimator_svc.joblib`: This is the trained SVM for bias detection.
 - `grid_best_estimator_logreg.joblib`: This is the trained Logistic Regression for bias detection.
 
-Because the datesets used are big we were not able to insert the data directly here. Hence, we have used KaggleHub and HuggingFace to read in data. For the convenience of the user, after preprocessing, the cleaned data will be generated. Therfore, the following section...
+Because the datesets used are big we were not able to insert the data directly here. Hence, we have used KaggleHub and HuggingFace to read in data. For the convenience of the user, after preprocessing, the cleaned data will be generated. Therefore, the following section...
 
 ### Dataset Files Generated:
 - `clean_real_news.csv`: This file contains the preprocessed data for the real news model.
