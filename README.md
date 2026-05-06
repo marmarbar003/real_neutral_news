@@ -50,9 +50,9 @@ Because the datesets used are big we were not able to insert the data directly h
 - Then activate it
   - If you have a Windows user then: `.\venv\Scripts\activate`
   - If you have a Mac/Linux user then: `source venv/bin/activate`
-- Then run this so the venv will appear on jupyer notebook" `python -m ipykernel install --user --name=venv --display-name "Real Bias (venv)"`
 - Then run the following command to ensure you have all the neccesary libraries installed:
   `pip install -r requirements.txt`
+- Then run this so the venv will appear on jupyer notebook" `python -m ipykernel install --user --name=venv --display-name "Real Bias (venv)"`
 - Now run this command: `jupyter notebook`
 
 Now that you have the setup you will need to run the following files in order (descriptions for each file provided above):
