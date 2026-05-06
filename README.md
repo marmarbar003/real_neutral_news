@@ -5,12 +5,12 @@
 In this day and age media can be used for anything. Therefore, this project aims to determine whether an article is real or fake. In addition, media can be used to influence individuals' perspective, hence it also detects whether the article is right leaning or left learning. 
 
 ## Program Language
-This issue has been addressed using python for all of the steps (preprocessing, EDA, model training/ testsing and UI integration).
+This issue has been addressed using python for all of the steps (preprocessing, EDA, model training/ testing and UI integration).
 
 ## Datasets
-For the real news aspect of this project the following dataset was used this [LINK](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data). A quick summary of the data is that there are 2 seperate datasets one contaitning real news (indicated by the source of the article being Reuters) and a fake dataset which was flagged unreliable by Politifact (fact checking org). Both dataset contains similar amount of observations and have the same features.
+For the real news aspect of this project the following dataset was used this [LINK](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data). A quick summary of the data is that there are 2 separate datasets one containing real news (indicated by the source of the article being Reuters) and a fake dataset which was flagged unreliable by Politifact (fact checking org). Both dataset contains similar amount of observations and have the same features.
 
-For the new bias portion of this project, the following dataset was used [LINK](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data). This dataset contains over 10,000 articles obtained by webscraping allsides.com, a platform that presents news articles from differing political perspectives.  The articles were initially labeled "leaning-left", "left", "center", "right", and "leaning-right" but the formatting was changed to suit this project.  
+For the new bias portion of this project, the following dataset was used [LINK](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets/data). This dataset contains over 10,000 articles obtained by webscraping allsides.com, a platform that presents news articles from differing political perspectives. The articles were initially labeled "leaning-left", "left", "center", "right", and "leaning-right" but the formatting was changed to suit this project.  
 
 
 ## Navigation of this Repo/ Folder
@@ -34,7 +34,7 @@ These are all the files within this repo.
 - `grid_best_estimator_svc.joblib`: This is the trained SVM for bias detection.
 - `grid_best_estimator_logreg.joblib`: This is the trained Logistic Regression for bias detection.
 
-Because the datesets used are big we were not able to insert the data directly here. Hence, we have used KaggleHub and HuggingFace to read in data. For the convenience of the user, after preprocessing, the cleaned data will be generated. Therfore, the following section...
+Because the datesets used are big we were not able to insert the data directly here. Hence, we have used KaggleHub and HuggingFace to read in data. For the convenience of the user, after preprocessing, the cleaned data will be generated. Therefore, the following section...
 
 ### Dataset Files Generated:
 - `clean_real_news.csv`: This file contains the preprocessed data for the real news model.
