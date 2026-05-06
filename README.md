@@ -28,7 +28,7 @@ These are all the files within this repo.
 - `log_reg_rn.joblib`: This is the trained Logistic Regression for real news.
 - `rand_for.joblib`: This is the trained Random Forest for real news.
 - `svc_rn.joblib`: This is the trained SVM for real news.
-**
+
 - `vec_text.joblib`: This is the trained text vectorizer for bias detection.
 - `model_decTree.joblib`: This is the trained Decision Tree for bias detection.
 - `grid_best_estimator_svc.joblib`: This is the trained SVM for bias detection.
