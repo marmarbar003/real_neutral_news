@@ -21,7 +21,7 @@ These are all the files within this repo.
 - `real_news_mlds.ipynb`: This file will showcase all the models tested for determining whether the article is real or fake.
 - `bias_news.ipynb`: This file will showcase all the preprocessing and EDA for determining whether the article is left leaning or right leaning.
 - `bias_news_modls.ipynb`: This file will showcase all the models tested for determining whether the article is real or fake.
-- `UI.ipynb`: This file utilizes the model/ vecotrizers dumped in  `real_news_mlds.ipynb` and `bias_news_modls.ipynb` and utilizes one of the models [per section (i.e. real news or bias detection)] to be integrated with the UI. We have opted to chose the logistic regression for both as its the one that performed the best. However, if one wants to change the model used in this file just change the joblib model saved in the variable `bias_model` and `real_model`.
+- `UI.ipynb`: This file utilizes the model/ vecotrizers dumped in  `real_news_mlds.ipynb` and `bias_news_modls.ipynb` and utilizes one of the models [per section (i.e. real news or bias detection)] to be integrated with the UI. We have opted for the logistic regression for both as its the model that performed the best. However, if one wants to change the model used in this file just change value of the variables `bias_model` and `real_model` to a different joblib model (e.x. `rand_for.joblib` for `real_model`) .
 
 ### Models/ Vectorizers Generated (saved with dump):
 - `vectorizer_rn.joblib`: This is the trained text vectorizer (TF-IDF) for real news.
