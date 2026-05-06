@@ -63,7 +63,7 @@ Now that you have the setup you will need to run the following files in order (d
 1. `real_news.ipynb`
 2. `bias_news.ipynb`
 - Then run 3 and 4 to generate the models.
-3. `real_news_mlds.ipynb` (runtime ~ 8min 30s)
+3. `real_news_mlds.ipynb`
 4. `bias_news_mdls.ipynb`
 - Lastly, run 5 to interact with the user interface.
 5. `UI.ipynb`
