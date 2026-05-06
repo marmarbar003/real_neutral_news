@@ -21,14 +21,14 @@ These are all the files within this repo.
 - `real_news_mlds.ipynb`: This file will showcase all the models tested for determining whether the article is real or fake.
 - `bias_news.ipynb`: This file will showcase all the preprocessing and EDA for determining whether the article is left leaning or right leaning.
 - `bias_news_modls.ipynb`: This file will showcase all the models tested for determining whether the article is real or fake.
-- `UI.ipynb`: This file utilizes the model/ vecotrizers dumped in  `real_news_mlds.ipynb` and `bias_news_modls.ipynb` and utilizes one of the models [per section (i.e. real news or bias detection)] to be integrated with the UI.
+- `UI.ipynb`: This file utilizes the model/ vecotrizers dumped in  `real_news_mlds.ipynb` and `bias_news_modls.ipynb` and utilizes one of the models [per section (i.e. real news or bias detection)] to be integrated with the UI. We have opted to chose the logistic regression for both as its the one that performed the best. However, if one wants to change the model used in this file just change the joblib model saved in the variable `bias_model` and `real_model`.
 
 ### Models/ Vectorizers Generated (saved with dump):
 - `vectorizer_rn.joblib`: This is the trained text vectorizer (TF-IDF) for real news.
 - `log_reg_rn.joblib`: This is the trained Logistic Regression for real news.
 - `rand_for.joblib`: This is the trained Random Forest for real news.
 - `svc_rn.joblib`: This is the trained SVM for real news.
-
+*****
 - `vec_text.joblib`: This is the trained text vectorizer for bias detection.
 - `model_decTree.joblib`: This is the trained Decision Tree for bias detection.
 - `grid_best_estimator_svc.joblib`: This is the trained SVM for bias detection.
@@ -48,8 +48,8 @@ Because the datesets used are big we were not able to insert the data directly h
 - First, please make a virtual environment in the same directory as the files by using the following command in terminal:
   `python3 -m venv venv`
 - Then activate it
-  - If you are a Windows user then: `.\venv\Scripts\activate`
-  - If you are a Mac/Linux user then: `source venv/bin/activate`
+  - If you have a Windows user then: `.\venv\Scripts\activate`
+  - If you have a Mac/Linux user then: `source venv/bin/activate`
 - Then run this so the venv will appear on jupyer notebook" `python -m ipykernel install --user --name=venv --display-name "Real Bias (venv)"`
 - Then run the following command to ensure you have all the neccesary libraries installed:
   `pip install -r requirements.txt`
@@ -63,7 +63,7 @@ Now that you have the setup you will need to run the following files in order (d
 1. `real_news.ipynb`
 2. `bias_news.ipynb`
 - Then run 3 and 4 to generate the models.
-3. `real_news_mlds.ipynb`
+3. `real_news_mlds.ipynb` (runtime ~ 8min 30s)
 4. `bias_news_mdls.ipynb`
 - Lastly, run 5 to interact with the user interface.
 5. `UI.ipynb`
