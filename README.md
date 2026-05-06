@@ -21,12 +21,23 @@ These are all the files within this repo.
 - `real_news_mlds.ipynb`: This file will showcase all the models tested for determining whether the article is real or fake.
 - `bias_news.ipynb`: This file will showcase all the preprocessing and EDA for determining whether the article is left leaning or right leaning.
 - `bias_news_modls.ipynb`: This file will showcase all the models tested for determining whether the article is real or fake.
-- `UI.ipynb`: This file utilizes the clean datasets generated from `real_news.ipynb` and `INSERT FILE NAME` and utilizes one of the models [per section (i.e. real news or bias detection)] to be integrated with the UI.
+- `UI.ipynb`: This file utilizes the model/ vecotrizers dumped in  `real_news_mlds.ipynb` and `bias_news_modls.ipynb` and utilizes one of the models [per section (i.e. real news or bias detection)] to be integrated with the UI.
+
+### Models/ Vectorizers Generated (saved with dump):
+- `vectorizer_rn.joblib`: This is the trained text vectorizer (TF-IDF) for real news.
+- `log_reg_rn.joblib`: This is the trained Logistic Regression for real news.
+- `rand_for.joblib`: This is the trained Random Forest for real news.
+- `svc_rn.joblib`: This is the trained SVM for real news.
+
+- `vec_text.joblib`: This is the trained text vectorizer for bias detection.
+- `model_decTree.joblib`: This is the trained Decision Tree for bias detection.
+- `grid_best_estimator_svc.joblib`: This is the trained SVM for bias detection.
+- `grid_best_estimator_logreg.joblib`: This is the trained Logistic Regression for bias detection.
 
 Because the datesets used are big we were not able to insert the data directly here. Hence, we have used KaggleHub and HuggingFace to read in data. For the convenience of the user, after preprocessing, the cleaned data will be generated. Therfore, the following section...
 
 ### Dataset Files Generated:
-- `clean_real_news`: This file contains the preprocessed data for the real news model.
+- `clean_real_news.csv`: This file contains the preprocessed data for the real news model.
 - `huggingFaceClean.json`: This file contains the preprocessed data for the bias news model, generated from the Hugging Face Dataset
 - `KaggleClean.json`: This file contains the preprocessed data for the bias news model, generated from the Kaggle Dataset.
 
